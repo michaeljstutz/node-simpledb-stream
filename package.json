@@ -1,0 +1,24 @@
+{
+  "name": "simpledb-stream",
+  "version": "0.1.0",
+  "description": "Stream access to an AWS SimpleDB",
+  "main": "lib/simpledb-stream.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeljstutz/node-simpledb-stream.git"
+  },
+  "author": "Michael Stutz <michaeljstutz@gmail.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/michaeljstutz/node-simpledb-stream/issues"
+  },
+  "homepage": "https://github.com/michaeljstutz/node-simpledb-stream#readme",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.3.16",
+    "uuid": "^2.0.2"
+  }
+}
